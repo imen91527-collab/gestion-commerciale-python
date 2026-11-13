@@ -1,4 +1,6 @@
 # Programme : Calcul du total des ventes
+# Calcul du chiffre d'affaires total
+# Taux de TVA applique : 19 %
 
 quantite = int(input("Donner la quantite vendue : "))
 prix_unitaire = float(input("Donner le prix unitaire (DT) : "))
