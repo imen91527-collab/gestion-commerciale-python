@@ -8,8 +8,11 @@ prix_vente = float(input("Donner le prix de vente (DT) : "))
 # Calcul de la marge
 marge = prix_vente - prix_achat
 
-# Affichage du résultat
-print("La marge commerciale est :", marge, "DT")
+# Affichage des informations
+print("\n--- Résultat de la vente ---")
+print("Prix d'achat :", prix_achat, "DT")
+print("Prix de vente :", prix_vente, "DT")
+print("Marge commerciale :", marge, "DT")
 
 # Conclusion
 if marge > 0:
